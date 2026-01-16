@@ -8,10 +8,15 @@ ul{
 a{
     text-decoration: none;
     font-size:18px;
-    color:#F9FAF8
+    color:#F9FAF8;
 }
-
+span{
+    font-size:18px;
+    color:#E5E7EB;
+    font-weight: 200;
+}
 .body{
+    box-sizing:border-box;
     display:flex;
     flex-direction:column;
     font-family: Roboto, "Times New Roman";
@@ -27,7 +32,7 @@ header{
     font-size: 36px;
     font-weight: 900;
     color: #F9FAF8;
-    padding: 18px 180px;
+    padding: 18px 180px 0px 180px;
     height:100px;
 }
 .hero-section{
@@ -50,9 +55,7 @@ header{
     font-weight: 900;
 }
 
-/*.hero-image{
-    width:300px;
-}*/
+
 
 .hero-secondary{
     font-size: 18px;
@@ -61,7 +64,6 @@ header{
 }
 
 .hero-logo{
-    box-sizing:border-box;
     font-size:24px;
     background-color:#3882F6;
     padding:6px 24px;
@@ -69,3 +71,31 @@ header{
     width: 130px;
     text-align: center;
 }
+
+.places-to-visit{
+    display:flex;
+    flex-direction: column;
+    padding-top:36px;
+    gap:36px;
+}
+
+.places-title{
+    font-size:36px;
+    font-weight: 900;
+    color:#1F2937;
+    text-align: center;
+}
+.places-all-images{
+    display:flex;
+    justify-content: center;
+    gap:18px;
+}
+.place-image{
+    display:flex;
+    flex-direction: column; 
+}
+.places-to-visit img{
+    border:#3882F6 4px solid;
+    border-radius: 8px;
+}
+
